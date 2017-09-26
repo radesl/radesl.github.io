@@ -1,0 +1,77 @@
+.bigSquare{
+    height: 600px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.square{
+    float:left;
+    width: 190px;
+    height: 190px;
+    margin: 2px;
+    padding: 0;
+}
+.squareTopR{
+    background-color: red;
+}
+.squareTopC{
+    background-color: blue;
+}
+.squareTopL{
+    background-color: green;
+}
+.squareMidR{
+    background-color: yellow;
+}
+.squareMidC{
+    background-color: black;
+}
+.squareMidL{
+    background-color: orange;
+}
+.squareLowR{
+    background-color: purple;
+}
+.squareLowC{
+    background-color: gray;
+}
+.squareLowL{
+    background-color: pink;
+}
+.circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.circleTopR{
+    background-color: pink;
+}
+.circleTopC{
+    background-color: gray;
+}
+.circleTopL{
+    background-color: purple;
+}
+.circleMidR{
+    background-color: green;
+}
+.circleMidC{
+    background-color: red;
+}
+.circleMidL{
+    background-color: blue;
+}
+.circleLowR{
+    background-color: orange;
+}
+.circleLowC{
+    background-color: yellow;
+}
+.circleLowL{
+    background-color: black;
+}
