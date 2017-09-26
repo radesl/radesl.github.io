@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
 </head>
+
 <body>
-    <form>
+    <form action="https://formspree.io/your@email.com" method="post">
         <label>Imie: </label>
         <input type="text" id="name" name="name"><br>
         <label>Nazwisko: </label>
@@ -21,12 +23,15 @@
             <option value="Gdansk">Gdans</option>
         </select><br>
         <label>Plec: </label>
-        <input type="radio" id="sex" name="sex" value="facet">
-        <input type="radio" id="sex" name="sex" value="kobieta">
-    </form><br>
-    <label>Zgadzam sie na przetwazanie danych osobowych</label>
-    <input type="checkbox" id="check" name="check"><br>
-    <label>Widomosc: </label><br>
-    <textarea name="message" id="message" col="30" rows="5"></textarea>
+        <input type="radio" id="male" name="male" value="facet">
+        <input type="radio" id="female" name="female" value="kobieta">
+        <br>
+        <label>Zgadzam sie na przetwazanie danych osobowych</label>
+        <input type="checkbox" id="check" name="check"><br>
+        <label>Widomosc: </label><br>
+        <textarea name="message" id="message" cols="30" rows="5"></textarea><br>
+        <input type="submit" id="submit" name="submit" value="Wyslij dane">
+    </form>
 </body>
+
 </html>
