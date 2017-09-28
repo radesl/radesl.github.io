@@ -8,29 +8,28 @@
 
 <body>
     <form action="https://formspree.io/radeksowik@gmail.com" method="post">
-        <label>Imie: </label>
+        <label for="name">Imie: </label>
         <input type="text" id="name" name="name"><br>
-        <label>Nazwisko: </label>
+        <label for="surename">Nazwisko: </label>
         <input type="text" id="surename" name="surename"><br>
-        <label>Email: </label>
+        <label for="email">Email: </label>
         <input type="email" id="email" name="email"><br>
-        <label>Numer telefonu: </label>
+        <label for="phone">telefon: </label>
         <input type="tel" id="phone" name="phone"><br>
-        <label>Miasto: </label>
-        <select>
+        <label for="city">Miasto: </label>
+        <select name="city" id="city">
             <option value="Krakow">Krakow</option>
             <option value="Warszawa">Warszawa</option>
             <option value="Gdansk">Gdans</option>
         </select><br>
-        <label>Plec: </label><br>
-        <label>facet</label>
+        <label for="male">facet</label>
         <input type="radio" id="male" name="male" value="facet">
-        <label>kobieta</label>
+        <label for="female">kobieta</label>
         <input type="radio" id="female" name="female" value="kobieta">
         <br>
-        <label>Zgadzam sie na przetwazanie danych osobowych</label>
+        <label for="check">Zgadzam sie na przetwazanie danych osobowych</label>
         <input type="checkbox" id="check" name="check"><br>
-        <label>Widomosc: </label><br>
+        <label for="message">Widomosc: </label><br>
         <textarea name="message" id="message" cols="30" rows="5"></textarea><br>
         <input type="submit" id="submit" name="submit" value="Wyslij dane">
     </form>
