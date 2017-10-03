@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0.2%;
+}
+#form{
+    width: 700px;
+    padding: 2%;
+    background-color: #213b50;
+}
+#form label,
+#form select,
+#form input[type="submit"]{
+    color: white;
+}
+#form input[type],
+#form select,
+#form textarea
+{
+    width: 50%; 
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display:block;
+    background-color: #2b4a64;
+    border: none;
+    box-sizing: border-box;
+}
+#form input[type="text"],
+#form input[type="email"],
+#form input[type="tel"]{
+    height: 30px;
+}
+#form p{
+    color: white;
+}
+#form input[type="radio"]{
+    text-align: left;
+}
+#form input[type]:active,
+#form select:active,
+#form textarea:active,
+#form select option[value]{
+    background-color: #4e708c;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+#form input[type="submit"]{
+    background-color: lightgreen;
+    width: 10%;
+    padding: 1.5%;
+    font-weight: 800;
+}
+#form label[for="message"]{
+    display: block;
+    margin: 0;
+}
+#form textarea{
+    margin: 0;
+}
+#form label[for="check"]{
+    text-align: left;
+}
+#form input[type="checkbox"],
+#form input[type="radio"]{
+    display:inline;
+    width: 2%;
+}
