@@ -1,0 +1,25 @@
+@media all and (max-width: 992px){
+    .oferta{
+        width: 80%;
+        left: 50%;
+        margin-left:  -40%;
+        
+    }
+    .zdjecie{
+        margin-left: 1%;
+        margin-bottom: 1%;
+        width: 49%;
+    }
+}
+@media all and (max-width: 480px){
+    .oferta{
+       width: 100%; 
+        left: 52%;
+        margin-left: -50%;
+    }
+    .zdjecie{
+        margin-left: 0.5%;
+        margin-bottom: 0.5%;
+        width: 95%;
+    }
+}

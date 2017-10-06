@@ -1,0 +1,36 @@
+/* usuwanie styli przegladarki */
+* {
+    padding: 0;
+    margin: 0;
+}
+/* stylowanie nawigacji */
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+nav li {
+    display: inline-block;
+    width: 10%;
+}
+
+nav li a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+nav li a:hover {
+    cursor: pointer;
+}
+/* koniec stylowania nawigacji */

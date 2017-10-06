@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #98fb98;
+    position: relative;
+}
+
+.oferta {
+    width: 1300px;
+    height: 200px;
+    position: absolute;
+    top: 150px;
+}
+
+.produkt-1 {
+    background-image: url(../obrazy/product-1.jpg);
+}
+
+.produkt-2 {
+    background-image: url(../obrazy/product-2.jpg);
+}
+
+.produkt-3 {
+    background-image: url(../obrazy/product-3.jpg);
+}
+
+.produkt-4 {
+    background-image: url(../obrazy/product-4.jpg);
+}
+
+.zdjecie {
+    float: left;
+    height: 100%;
+    width: 300px;
+    margin-left: 20px;
+    background-size: 100% 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+
+.maska {
+    opacity: 0;
+    z-index: 100;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 111, 0, 0.5);
+    position: relative;
+}
+
+.maska:hover {
+    opacity: 1;
+}
+
+.fa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
