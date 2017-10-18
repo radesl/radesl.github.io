@@ -1,21 +1,22 @@
-@media all and (max-width: 992px) {
-    .product {
-        width: 40%;
-        margin: 1% 5%;
+@media all and (max-width:992px){
+    .offer{
+        height: 50%;
+        top: 15%;
     }
-    .product:nth-child(3) {
-        margin: 1% 5%;
+    .product{
+        height: 70%;
+        width: 46%;
+        margin: 1% 2%;
+        box-sizing: border-box;
     }
 }
-@media all and (max-width: 480px){
-    .oferta{
-       width: 100%; 
-        left: 52%;
-        margin-left: -50%;
+@media all and (max-width:480px){
+    .offer{
+        top: 5%;
     }
-    .zdjecie{
-        margin-left: 0.5%;
-        margin-bottom: 0.5%;
-        width: 95%;
+    .product{
+        width: 80%;
+        height: 40%;
+        margin: 1% 10%;
     }
 }
