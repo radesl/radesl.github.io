@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.timer {
+    width: 100%;
+    font-size: 2em;
+}
+
+.timer::after {
+    content: '';
+    animation-name: change;
+    animation-duration: 6s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes change {
+    0% {
+        content: '1';
+    }
+    9% {
+        content: '2';
+    }
+    18% {
+        content: '3';
+    }
+    27% {
+        content: '4';
+    }
+    36% {
+        content: '5';
+    }
+    45% {
+        content: '6';
+    }
+    54% {
+        content: '7';
+    }
+    63% {
+        content: '8';
+    }
+    72% {
+        content: '9';
+    }
+    81% {
+        content: '10';
+    }
+    100%{
+        content: 'I LOVE CSS';
+    }
+}

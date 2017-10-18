@@ -2,61 +2,67 @@
     padding: 0;
     margin: 0;
 }
-
-body {
+body{
     background-color: #98fb98;
-    position: relative;
 }
-
-.oferta {
-    width: 1300px;
-    height: 200px;
-    position: absolute;
-    top: 150px;
-}
-
-.produkt-1 {
-    background-image: url(../obrazy/product-1.jpg);
-}
-
-.produkt-2 {
-    background-image: url(../obrazy/product-2.jpg);
-}
-
-.produkt-3 {
-    background-image: url(../obrazy/product-3.jpg);
-}
-
-.produkt-4 {
-    background-image: url(../obrazy/product-4.jpg);
-}
-
-.zdjecie {
-    float: left;
+/* stylowanie oferty poduktow */
+.offer{
+    width: 95%;
+    height: 380px;
+    margin-top: 25vh;
+    padding: 0 2.5%;
+} 
+/* koniec stylowania oferty produktow */
+/* stylowanie produktow */
+.product{
     height: 100%;
-    width: 300px;
-    margin-left: 20px;
-    background-size: 100% 100%;
-    overflow: hidden;
-    box-sizing: border-box;
+    width: 22%;
+    max-width: 800px;
+    padding-top: 56.25%;
+    float: left;
+    background-size: cover;
+    background-position: center center;
     background-repeat: no-repeat;
 }
-
-.maska {
-    opacity: 0;
-    z-index: 100;
+.product:nth-child(1){
+    background-image: url('../obrazy/product-1.jpg');
+}
+.product:nth-child(2){
+    background-image: url('../obrazy/product-2.jpg');
+    margin-left: 4%;
+}
+.product:nth-child(3){
+    background-image: url('../obrazy/product-3.jpg');
+    margin-left: 4%;
+}
+.product:nth-child(4){
+    background-image: url('../obrazy/product-4.jpg');
+    margin-left: 4%;
+}
+/* koniec stylowania produktow */
+/* stylowanie masek produktow */
+.mask{
     height: 100%;
     width: 100%;
-    background-color: rgba(255, 111, 0, 0.5);
+    background-color: rgba(255, 111, 0, 0);
     position: relative;
+    opacity: 0;
+    transition: all 0.2s;
 }
-
-.maska:hover {
+.product:hover .mask{
+    background-color: rgba(255, 111, 0, 0.7);
     opacity: 1;
 }
-
-.fa {
+.mask .fa{
+    display: block;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 40%;
+    font-size: 4em;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+}
+.clear{
+    clear: both;
 }

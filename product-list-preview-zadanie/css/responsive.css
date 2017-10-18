@@ -1,14 +1,10 @@
-@media all and (max-width: 992px){
-    .oferta{
-        width: 80%;
-        left: 50%;
-        margin-left:  -40%;
-        
+@media all and (max-width: 992px) {
+    .product {
+        width: 40%;
+        margin: 1% 5%;
     }
-    .zdjecie{
-        margin-left: 1%;
-        margin-bottom: 1%;
-        width: 49%;
+    .product:nth-child(3) {
+        margin: 1% 5%;
     }
 }
 @media all and (max-width: 480px){

@@ -1,10 +1,8 @@
 @media all and (max-width: 1170px) {
     header {
         background-image: url(../obrazy/man-2.jpg);
-        height: 70%;
-        min-height: 70%;
-        background-position: center;
-        background-size: cover;
+        height: 70vh;
+        min-height: 70vh;
     }
     .me {
         font-size: 1em;
@@ -22,21 +20,25 @@
 @media all and (max-width: 992px) {
     header {
         background-image: url(../obrazy/man-1.jpg);
-        height: 50%;
-        min-height: 50%;
+        height: 50vh;
+        min-height: 50vh;
     }
+    
     .me {
         top: 100%;
-        left: 35%;
+        left: 0;
+        right: 0;
         color: black;
         text-align: center;
     }
+    
     .me h1 {
         padding-bottom: 3%;
         padding-top: 3%;
         font-size: 1em;
     }
-    .me h2{
+    
+    .me h2 {
         font-size: 1.5em;
     }
 }
