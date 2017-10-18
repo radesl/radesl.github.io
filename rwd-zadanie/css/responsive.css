@@ -1,44 +1,30 @@
-@media all and (max-width: 1170px) {
-    header {
-        background-image: url(../obrazy/man-2.jpg);
-        height: 70vh;
-        min-height: 70vh;
+@media all and (max-width:1170px){
+    .myPhoto{
+        height: 70%;
+        background-image: url('../obrazy/man-2.jpg');
+        background-size: cover;
+        background-position: center;
     }
-    .me {
-        font-size: 1em;
-        top: 25%;
+    .description{
+        top: 10%;
         left: 60%;
     }
-    .me h1{
-        font-size: 1em;
-    }
-    .me h2{
+      .description h2{
         font-size: 1.5em;
     }
 }
-
-@media all and (max-width: 992px) {
-    header {
-        background-image: url(../obrazy/man-1.jpg);
-        height: 50vh;
-        min-height: 50vh;
+@media all and (max-width:992px){
+    .myPhoto{
+        background-image: url('../obrazy/man-1.jpg');
+        height: 50%;
+        background-size: cover;
     }
-    
-    .me {
-        top: 100%;
-        left: 0;
-        right: 0;
-        color: black;
+    .description{
+        width: 100%;
         text-align: center;
-    }
-    
-    .me h1 {
-        padding-bottom: 3%;
-        padding-top: 3%;
-        font-size: 1em;
-    }
-    
-    .me h2 {
-        font-size: 1.5em;
+        top: 100%;
+        color: black;
+        right: 0;
+        left: 0;
     }
 }
