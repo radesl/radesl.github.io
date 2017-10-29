@@ -1,33 +1,256 @@
 <!DOCTYPE html>
+<!-- podstawowy szablon bootstrapa -->
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300i,400,700|Roboto:300i,400,700" rel="stylesheet">
 </head>
 
 <body>
-    <!-- poczatek nawigacj -->
-    <nav>
-        <ul>
-            <li><a href="#">site-1</a></li>
-            <li><a href="#">site-2</a></li>
-            <li><a href="#">site-3</a></li>
-            <li><a href="#">site-4</a></li>
-            <li><a href="#">site-5</a></li>
-        </ul>
+    <nav id="main-nav" class="navbar navbar-expand-lg navbar-light fixed-top">
+        <a class="navbar-brand color position" href="#">Bootstrap Project</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto w-100 justify-content-end pad">
+                <li class="nav-item">
+                    <a class="nav-link color" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link color" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link color" href="#team">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link color" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
     </nav>
-    <!-- koniec nawigacji -->
-    <!-- poczatek naglowka -->
-    <header>
-        <div class="naglowek">
-            <h1>Radomir Slowik</h1>
-            <h2>Front-End Developer</h2>
+    <header id="photo">
+        <div class="description text-center">
+            <h1>Lorem ipsum dolor</h1>
+            <h2>sit amet</h2>
+            <button type="button" class="btn">view more</button>
         </div>
     </header>
-    <!-- koniec naglowka -->
+    <section id="services">
+        <div class="services-desc">
+            <h2>Services</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <ul>
+            <li>
+                <i class="fa fa-briefcase" aria-hidden="true"></i>
+                <h3>Web-development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae deserunt molestias laboriosam quisquam dolor consequuntur</p>
+            </li>
+            <li>
+                <i class="fa fa-cloud-download" aria-hidden="true"></i>
+                <h3>E-commerce</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae deserunt molestias laboriosam quisquam dolor consequuntur</p>
+            </li>
+            <li>
+                <i class="fa fa-comment-o" aria-hidden="true"></i>
+                <h3>Web-design</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae deserunt molestias laboriosam quisquam dolor consequuntur</p>
+            </li>
+        </ul>
+    </section>
+    <section id="portfolio">
+        <div class="portfolio-desc">
+            <h2>Portfolio</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="container gallery">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class='overflow'>
+                        <div class="image image1">
+                            <div class="mask">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center portfolio-color">
+                        <h3>Lorem ipsum</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class='overflow'>
+                        <div class="image image2">
+                            <div class="mask">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center portfolio-color">
+                        <h3>Lorem ipsum</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class='overflow'>
+                        <div class="image image3">
+                            <div class="mask">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center portfolio-color">
+                        <h3>Lorem ipsum</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class='overflow'>
+                        <div class="image image4">
+                            <div class='mask'>
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="text-center portfolio-color">
+                        <h3>Lorem ipsum</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class='overflow'>
+                        <div class="image image5">
+                            <div class="mask">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="text-center portfolio-color">
+                        <h3>Lorem ipsum</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class='overflow'>
+                        <div class="image image6">
+                            <div class="mask">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center portfolio-color">
+                        <h3>Lorem ipsum</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="team">
+        <div class="team-desc">
+            <h2>Meet our Team</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="container push">
+            <div class="row">
+                <div class="col-sm-4 col-sm-4">
+                    <img class="rounded-circle team-image" src="bootstrap-project-photos/img/team/man-1.jpg" alt="">
+                    <div class="team-element-desc">
+                        <h3>Eric Stern</h3>
+                        <h4>Account Mannager</h4>
+                    </div>
+                    <div class="icons">
+                        <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-sm-4">
+                    <img class="rounded-circle team-image" src="bootstrap-project-photos/img/team/man-2.jpg" alt="">
+                    <div class="team-element-desc">
+                        <h3>Martin Muller</h3>
+                        <h4>Developer</h4>
+                    </div>
+                    <div class="icons">
+                        <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <img class="rounded-circle team-image" src="bootstrap-project-photos/img/team/woman-1.jpg" alt="">
+                    <div class="team-element-desc">
+                        <h3>Anna Smitch</h3>
+                        <h4>Project Mannager</h4>
+                    </div>
+                    <div class="icons">
+                        <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="team-desc">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum molestias minima fugit deserunt animi, itaque dolorum quia corporis, optio nesciunt excepturi.</p>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contact-desc">
+            <h3>Contact us</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+        </div>
+        <form action="https://formspree.io/your@email.com" method="POST">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 input-data">
+                        <input type="text" placeholder="your name" name="name" id="name">
+                        <input type="email" placeholder="your email" name="email" id="email">
+                        <input type="tel" placeholder="your phone" name="phone" id="phone">
+                    </div>
+                    <div class="col-sm-12 col-md-6 input-message">
+                        <textarea name="message" id="message" cols="50" rows="9" placeholder="Your message"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <input type="submit" name="submit" id="sumbit" class="btn" value="send message">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <p>Copyright@YourWebsite</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </div>
+                <div class="col-md-4">
+                    <p>Privaty policy Terms of use</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src='js/jquery-3.2.1.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src='bootstrap/js/bootstrap.min.js'></script>
+    <script src='js/main.js'></script>
 </body>
 
 </html>

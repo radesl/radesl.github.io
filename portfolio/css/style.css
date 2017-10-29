@@ -1,63 +1,325 @@
-/* usuwanie styli przegladarki */
-
-* {
-    padding: 0;
+body {
     margin: 0;
 }
 
 
-/* stylowanie nawigacji */
+/* stylowanie menu głównego */
 
-nav {
-    position: fixed;
+#main-nav {
+    transition: all 0.4s;
+}
+
+#main-nav .color,
+.nav-link .color {
+    color: white;
+    font-weight: 600;
+}
+
+#main-nav .position {
+    margin-left: 10%;
+}
+
+#navbarSupportedContent .pad {
+    padding-right: 10%;
+}
+
+.transparent-blue {
+    background-color: aqua;
+}
+
+
+/* stylowanie headera */
+
+#photo {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../bootstrap-project-photos/img/header/pictures_on_the_wall.jpg');
+    height: 100vh;
     width: 100%;
-    background-color: aliceblue;
-    z-index: 100;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-nav ul {
+#photo .description h1,
+#photo .description h2,
+#photo .description button {
+    color: white;
+}
+
+#photo .description button {
+    background-color: aqua;
+}
+
+
+/* stylowanie sekcji service */
+
+#services {
+    padding-bottom: 200px;
+}
+
+#services .services-desc {
+    margin-top: 100px;
+}
+
+#services h2,
+#services p {
+    display: flex;
+    justify-content: center;
+}
+
+#services ul {
     list-style-type: none;
-    text-align: right;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
-nav li {
+#services ul li {
     display: inline-block;
-    width: 10%;
+    width: 20%;
+    text-align: center;
 }
 
-nav li a {
-    color: black;
-    text-decoration: none;
-    display: block;
-    padding: 10px;
-    font-size: 20px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
+#services ul li h3 {
+    font-size: 16px;
+    margin-top: 20px;
 }
 
-nav li a:hover {
+#services ul li p {
+    font-size: 10px;
+}
+
+#services ul li .fa {
+    background-color: aqua;
+    color: white;
+    font-size: 32px;
+    border-radius: 50%;
+    padding: 15px;
+    transition: all 0.4s;
     cursor: pointer;
 }
 
+#services ul li .fa:hover {
+    transform: rotate(360deg);
+    background-color: white;
+    color: aqua;
+}
 
-/* koniec stylowania nawigacji */
 
+/* stylowanie sekcji portfolio */
 
-/* poczatek stylu naglowka */
+#portfolio {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+}
 
-header {
-    width: 100%;
-    height: 900px;
-    background-image: url(../portfolio-grafiki/img/header-background.jpg);
-    background-size: 100%;
+#portfolio .portfolio-desc {
+    margin-bottom: 50px;
+}
+
+#portfolio .portfolio-desc h2,
+#portfolio .portfolio-desc p {
+    display: flex;
+    justify-content: center;
+}
+
+#portfolio .image {
     background-repeat: no-repeat;
-    background-position: center -20%;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#portfolio .overflow {
     overflow: hidden;
-    position: relative;
 }
-.naglowek{
-    position: relative;
-    top: 40%;
-    left: 40%
+
+#portfolio .mask {
+    background-color: rgba(14, 216, 214, 0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.4s;
 }
-/* koniec stylu naglowka */
+
+#portfolio .fa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: 2em;
+    z-index: 20;
+    transform: translate(-50%, -50%);
+}
+
+#portfolio .image {
+    transition: all 0.4s;
+}
+
+#portfolio .image:hover {
+    transform: scale(1.2);
+}
+
+#portfolio .image:hover .mask {
+    opacity: 1;
+}
+
+#portfolio .portfolio-color {
+    background-color: white;
+}
+
+#portfolio .gallery .image1 {
+    background-image: url(../bootstrap-project-photos/img/portfolio/box_of_cookies.jpg);
+}
+
+#portfolio .gallery .image2 {
+    background-image: url(../bootstrap-project-photos/img/portfolio/chaotic_paint.jpg);
+}
+
+#portfolio .gallery .image3 {
+    background-image: url(../bootstrap-project-photos/img/portfolio/chestnut_on_bracket.jpg);
+}
+
+#portfolio .gallery .image4 {
+    background-image: url(../bootstrap-project-photos/img/portfolio/child_with_blue_paint.jpg);
+}
+
+#portfolio .gallery .image5 {
+    background-image: url(../bootstrap-project-photos/img/portfolio/house_with_blue_doors.jpg);
+}
+
+#portfolio .gallery .image6 {
+    background-image: url(../bootstrap-project-photos/img/portfolio/typing_on_laptop.jpg);
+}
+
+
+/* stylowanie sekcji team */
+
+#team {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#team .team-desc h2,
+#team .team-desc p {
+    display: flex;
+    justify-content: center;
+}
+
+#team .team-desc p:nth-child(1) {
+    margin-top: 40px;
+}
+
+#team .push {
+    display: flex;
+    justify-content: center;
+}
+
+#team .team-image {
+    width: 100%;
+}
+
+#team .team-element-desc h3,
+#team .team-element-desc h4 {
+    display: flex;
+    justify-content: center;
+}
+
+#team .team-element-desc h3 {
+    font-size: 16px;
+}
+
+#team .team-element-desc h4 {
+    font-size: 10px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+#team .icons a {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    text-align: center;
+    margin-left: 1%;
+}
+
+#team .icons a .fa {
+    font-size: 16px;
+    color: white;
+}
+
+#team .icons a:hover {
+    background-color: aqua;
+}
+
+#contact .contact-desc h3,
+#contact .contact-desc p {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* stylowanie sekcji contact */
+
+#contact {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../bootstrap-project-photos/img/footer/world-map.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+#contact input[type="text"],
+#contact form .input-data input[type="email"],
+#contact form .input-data input[type="tel"] {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    width: 100%;
+    padding: 12px;
+}
+
+#contact form textarea {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#contact input[type="submit"] {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: #0ed8d6;
+}
+
+
+/* stylowanie sekcji footer */
+
+#footer {
+    margin-top: 10px;
+}
+
+#footer .col-md-4 {
+    display: flex;
+    justify-content: center;
+}
+
+#footer .fa {
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    line-height: 30px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    margin-left: 5px;
+}
