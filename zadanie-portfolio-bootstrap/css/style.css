@@ -4,6 +4,10 @@
     color: #291f1a;
 }
 
+#wrapper{
+    overflow-x: hidden;
+}
+
 #main-nav .main-nav-transition {
     transition: all 0.4s;
 }
@@ -27,6 +31,9 @@
     font-size: 128px;
 }
 
+#header-section .header-description h2 {
+    font-size: 32px;
+}
 #header-section .header-color {
     color: #1ac056;
 }
@@ -57,7 +64,6 @@
 #about-me figure img {
     object-fit: cover;
     width: 100%;
-    height: 100%;
 }
 
 #my-abilities {
@@ -83,7 +89,6 @@
 }
 
 #portfolio .portfolio-image {
-    width: 370px;
     height: 300px;
     background-size: cover;
     background-position: center;
@@ -115,7 +120,7 @@
     font-size: 32px;
 }
 
-#portfolio .portfolio-image:hover .mask {
+#portfolio .portfolio-image:active .mask {
     opacity: 1;
 }
 
@@ -203,4 +208,13 @@
 
 #footer p {
     color: white;
+}
+
+@media all and (max-width: 575px){
+    #header-section .header-description h1{
+        font-size: 2.5em;
+    }
+    #header-section .header-description h2{
+        font-size: 1.5em;
+    }
 }
