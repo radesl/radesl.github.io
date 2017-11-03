@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    padding: 0;
 }
 
 
@@ -54,11 +55,12 @@ body {
 /* stylowanie sekcji service */
 
 #services {
-    padding-bottom: 200px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 #services .services-desc {
-    margin-top: 100px;
+    text-align: center;
 }
 
 #services h2,
@@ -67,50 +69,30 @@ body {
     justify-content: center;
 }
 
-#services ul {
-    list-style-type: none;
+#services .fa {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
     text-align: center;
-    display: flex;
-    justify-content: center;
-}
-
-#services ul li {
-    display: inline-block;
-    width: 20%;
-    text-align: center;
-}
-
-#services ul li h3 {
-    font-size: 16px;
-    margin-top: 20px;
-}
-
-#services ul li p {
-    font-size: 10px;
-}
-
-#services ul li .fa {
-    background-color: aqua;
-    color: white;
-    font-size: 32px;
     border-radius: 50%;
-    padding: 15px;
+    background-color: #0ed8d6;
+    color: white;
+    font-size: 30px;
     transition: all 0.4s;
-    cursor: pointer;
 }
 
-#services ul li .fa:hover {
+#services .fa:hover {
     transform: rotate(360deg);
     background-color: white;
-    color: aqua;
+    color: #0ed8d6;
 }
 
 
 /* stylowanie sekcji portfolio */
 
 #portfolio {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: #f7f7f7;
 }
 
@@ -201,8 +183,8 @@ body {
 /* stylowanie sekcji team */
 
 #team {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #team .team-desc h2,
@@ -211,8 +193,9 @@ body {
     justify-content: center;
 }
 
-#team .team-desc p:nth-child(1) {
-    margin-top: 40px;
+#team .team-desc p {
+    margin-top: 10px;
+    text-align: center;
 }
 
 #team .push {
@@ -276,6 +259,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     box-sizing: border-box;
+}
+
+#contact .contact-desc {
+    text-align: center;
 }
 
 #contact input[type="text"],
