@@ -10,10 +10,11 @@ function scrollColorMenu(){
     var menuHeight = $('nav').innerHeight();
     console.log(menuHeight);
     var menuScroll = $(window).scrollTop();
-    console.log(menuScroll);
     if(menuScroll > menuHeight){
         $('#main-nav').css({'background-color': '#1ac056'});
+        $('#main-nav a').css({'color': 'black'});
     }else{
         $('#main-nav').css({'background-color': ''});
+        $('#main-nav a').css({'color': '#172836'});
     }
 }
