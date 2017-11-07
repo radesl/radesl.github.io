@@ -1,0 +1,27 @@
+#about-me {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#about-me h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#about-me h2 .about-me-color {
+    color: #1ac056;
+}
+
+#about-me .container .row .col-md-6 figure {
+    width: 300px;
+    margin: 10px auto;
+}
+
+#about-me .container .row .col-md-6 figure img {
+    object-fit: cover;
+    width: 100%;
+}

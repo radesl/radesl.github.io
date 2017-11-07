@@ -1,0 +1,24 @@
+@import '../variables/variables';
+
+#header-section{
+    width: 100%;
+    height: 600px;
+    background-image: url(../../portfolio-grafiki/img/header-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .header-description{
+        text-align: center;
+        h1{
+            font-size: 128px;
+            .header-color{
+                color: $font-dodatkowy;
+            }
+        }
+        h2{
+            font-size: 32px;
+        }
+    }
+}

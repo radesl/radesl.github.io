@@ -1,0 +1,16 @@
+#my-abilities {
+    margin-bottom: 50px;
+}
+
+#my-abilities .my-abilities-desc {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#my-abilities .my-abilities-desc h2 .my-abilities-color {
+    color: #1ac056;
+}
+
+#my-abilities .container .row .col-md-3 figure {
+    text-align: center;
+}

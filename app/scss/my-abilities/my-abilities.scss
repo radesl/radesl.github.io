@@ -1,0 +1,22 @@
+@import '../variables/variables';
+#my-abilities {
+    margin-bottom: 50px;
+    .my-abilities-desc {
+        text-align: center;
+        margin-bottom: 50px;
+        h2 {
+            .my-abilities-color {
+                color: $font-dodatkowy;
+            }
+        }
+    }
+    .container {
+        .row {
+            .col-md-3 {
+                figure {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
