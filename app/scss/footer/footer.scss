@@ -1,0 +1,9 @@
+@import '../variables/variables';
+
+#footer {
+    background-color: $tlo-sekcji-kontaktowej;
+    height: 100%;
+    p {
+        color: white;
+    }
+}

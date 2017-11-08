@@ -1,0 +1,71 @@
+@import '../variables/variables';
+
+#contact {
+    width: 100%;
+    background-color: $tlo-sekcji-kontaktowej;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .container {
+        .row {
+            .my-data {
+                display: flex;
+                justify-content: flex-start;
+                .data-container {
+                    width: 100%;
+                    color: white;
+                    h3 {
+                        .contact-color {
+                            color: $font-dodatkowy;
+                        }
+                    }
+                    address {
+                        p {
+                            color: white;
+                        }
+                        span {
+                            color: white;
+                        }
+                    }
+                    .links {
+                        .fa {
+                            width: 50px;
+                            height: 50px;
+                            text-align: center;
+                            line-height: 50px;
+                            font-size: 32px;
+                            color: white;
+                            border: 1px solid white;
+                            margin-right: 3%;
+                        }
+                    }
+                }
+            }
+            .message {
+                display: flex;
+                justify-content: flex-start;
+                padding-top: 50px;
+                form {
+                    text-align: right;
+                    input[type='text'],
+                    input[type='email'],
+                    textarea {
+                        width: 100%;
+                        margin-bottom: 5px;
+                        background-color: #25425b;
+                        border: none;
+                        color: white;
+                    }
+                    input[type='submit'] {
+                        background-color: $font-dodatkowy;
+                        color: white;
+                        width: 100px;
+                        border: 1px solid white;
+                        text-transform: uppercase;
+                        border-radius: 0;
+                    }
+                }
+            }
+        }
+    }
+}

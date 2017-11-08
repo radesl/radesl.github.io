@@ -1,0 +1,69 @@
+#contact {
+    width: 100%;
+    background-color: #213b50;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#contact .container .row .my-data {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#contact .container .row .my-data .data-container {
+    width: 100%;
+    color: white;
+}
+
+#contact .container .row .my-data .data-container h3 .contact-color {
+    color: #1ac056;
+}
+
+#contact .container .row .my-data .data-container address p {
+    color: white;
+}
+
+#contact .container .row .my-data .data-container address span {
+    color: white;
+}
+
+#contact .container .row .my-data .data-container .links .fa {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 32px;
+    color: white;
+    border: 1px solid white;
+    margin-right: 3%;
+}
+
+#contact .container .row .message {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 50px;
+}
+
+#contact .container .row .message form {
+    text-align: right;
+}
+
+#contact .container .row .message form input[type='text'],
+      #contact .container .row .message form input[type='email'],
+      #contact .container .row .message form textarea {
+    width: 100%;
+    margin-bottom: 5px;
+    background-color: #25425b;
+    border: none;
+    color: white;
+}
+
+#contact .container .row .message form input[type='submit'] {
+    background-color: #1ac056;
+    color: white;
+    width: 100px;
+    border: 1px solid white;
+    text-transform: uppercase;
+    border-radius: 0;
+}

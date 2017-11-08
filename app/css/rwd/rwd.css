@@ -1,0 +1,14 @@
+@media all and (max-width: 575px) {
+    #header-section {
+        height: 300px;
+        background-position: center;
+    }
+
+    #header-section .header-description h1 {
+        font-size: 2.5em;
+    }
+
+    #header-section .header-description h2 {
+        font-size: 1.5em;
+    }
+}
