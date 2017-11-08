@@ -1,23 +1,32 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
+
 /* nadanie koloru elementowi body */
-body{
+
+body {
     background-color: #98fb98;
     height: 100vh;
 }
+
+
 /*stylowanie pola zwierajacego obrazki*/
-.offer{
+
+.offer {
     width: 100%;
     height: 50%;
     position: absolute;
-    top: 25%;
     left: 50%;
+    top: 50%;
     transform: translate(-50%, -50%);
 }
+
+
 /*stylowanie obrazkow*/
-.product{
+
+.product {
     height: 100%;
     width: 21%;
     float: left;
@@ -26,8 +35,11 @@ body{
     background-size: cover;
     background-position: center;
 }
+
+
 /*stylowanie maski*/
-.mask{
+
+.mask {
     width: 100%;
     height: 100%;
     background-color: rgba(255, 111, 0, 0);
@@ -39,29 +51,42 @@ body{
     color: white;
     transition: all 0.5s;
 }
-.mask:hover{
+
+.mask:hover {
     opacity: 1;
     background-color: rgba(255, 111, 0, 0.7);
 }
+
+
 /* stylowanie koszyka */
-.fa{
+
+.fa {
     position: absolute;
     top: 50%;
 }
+
+
 /*dodanie obrazkow w tle*/
-.product:nth-child(1){
+
+.product:nth-child(1) {
     background-image: url('../obrazy/product-1.jpg');
 }
-.product:nth-child(2){
+
+.product:nth-child(2) {
     background-image: url('../obrazy/product-2.jpg');
 }
-.product:nth-child(3){
+
+.product:nth-child(3) {
     background-image: url('../obrazy/product-3.jpg');
 }
-.product:nth-child(4){
+
+.product:nth-child(4) {
     background-image: url('../obrazy/product-4.jpg');
 }
+
+
 /* stylowanie elementu clear */
-clear{
+
+clear {
     clear: both;
 }
