@@ -35,6 +35,18 @@
 }
 
 @media all and (max-width: 768px) {
+    .main-menu {
+        width: 100%;
+    }
+
+    .slider {
+        width: 100%;
+    }
+
+    #footer-main {
+        width: 100%;
+    }
+
     #footer-main .container .row .col-md-3 .fa {
         font-size: 30px;
     }
@@ -51,6 +63,14 @@
 }
 
 @media all and (max-width: 576px) {
+    .main-menu {
+        width: 100%;
+    }
+
+    .slider {
+        width: 100%;
+    }
+
     .slider .carousel-inner .photo {
         height: 200px;
     }
@@ -61,5 +81,9 @@
 
     #header-main h2 {
         font-size: 16px;
+    }
+
+    #footer-main {
+        width: 100%;
     }
 }

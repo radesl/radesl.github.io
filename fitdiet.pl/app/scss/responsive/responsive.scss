@@ -44,7 +44,14 @@
 }
 
 @media all and (max-width: 768px) {
+    .main-menu{
+        width: 100%;
+    }
+    .slider{
+        width: 100%;
+    }
     #footer-main {
+        width: 100%;
         .container {
             .row {
                 .col-md-3 {
@@ -66,7 +73,11 @@
 }
 
 @media all and (max-width: 576px) {
+    .main-menu{
+        width: 100%;
+    }
     .slider {
+        width: 100%;
         .carousel-inner {
             .photo {
                 height: 200px;
@@ -80,5 +91,8 @@
         h2 {
             font-size: 16px;
         }
+    }
+    #footer-main{
+        width: 100%;
     }
 }
