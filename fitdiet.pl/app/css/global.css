@@ -1,0 +1,155 @@
+.main-menu {
+    font-family: 'Montserrat', sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 1px;
+    background-color: #e7e7e7;
+}
+
+.main-menu a {
+    cursor: default;
+    color: black;
+    padding: 1%;
+}
+
+.main-menu .navbar-collapse .navbar-nav .nav-item {
+    text-align: center;
+    width: 20%;
+}
+
+.main-menu .navbar-collapse .navbar-nav .nav-item .link-style {
+    color: black;
+    padding: 10%;
+    cursor: pointer;
+}
+
+.slider {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.slider .carousel-inner .photo {
+    height: 500px;
+}
+
+.slider .carousel-inner .photo img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.slider .carousel-inner .photo .text p {
+    font-size: 100px;
+}
+
+.slider .control-size {
+    height: 100px;
+    width: 100px;
+}
+
+#header-main {
+    margin-top: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#header-main h1 span {
+    color: green;
+}
+
+#footer-main {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#footer-main .container .row .col-md-3 {
+    display: flex;
+    justify-content: center;
+}
+
+#footer-main .container .row .col-md-3 .fa {
+    font-size: 32px;
+}
+
+#footer-main .container .row .col-md-3 span {
+    font-size: 25px;
+}
+
+#footer-main .container .row .col-md-3 a {
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+@media all and (max-width: 992px) {
+    .main-menu .navbar-collapse .navbar-nav .nav-item {
+        width: 100%;
+        text-align: left;
+    }
+
+    .main-menu .navbar-collapse .navbar-nav .nav-item .link-style {
+        padding: 3%;
+    }
+
+    .slider {
+        margin-top: 40px;
+    }
+
+    .slider .carousel-inner .photo {
+        height: 350px;
+    }
+
+    .slider .control-size {
+        height: 30px;
+        width: 30px;
+    }
+
+    #footer-main .container .row .col-md-3 .fa {
+        font-size: 20px;
+    }
+
+    #footer-main .container .row .col-md-3 span {
+        font-size: 16px;
+    }
+
+    #footer-main .container .row .col-md-3 a {
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    #footer-main .container .row .col-md-3 .fa {
+        font-size: 40px;
+    }
+
+    #footer-main .container .row .col-md-3 span {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    #footer-main .container .row .col-md-3 a {
+        font-size: 40px;
+        line-height: 40px;
+    }
+}
+
+@media all and (max-width: 576px) {
+    .slider .carousel-inner .photo {
+        height: 200px;
+    }
+
+    #header-main h1 {
+        font-size: 30px;
+    }
+
+    #header-main h2 {
+        font-size: 16px;
+    }
+}
+
+body {
+    background-image: url("../img/tlo.png");
+}

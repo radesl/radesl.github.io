@@ -1,0 +1,25 @@
+.main-menu {
+    font-family: 'Montserrat', sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 1px;
+    a{
+        cursor:default;
+        color: black;
+        padding: 1%;
+    }
+    background-color: #e7e7e7;
+    .navbar-collapse {
+        .navbar-nav {
+            .nav-item {
+                text-align: center;
+                width: 20%;
+                .link-style {
+                    color: black;
+                    padding: 10%;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

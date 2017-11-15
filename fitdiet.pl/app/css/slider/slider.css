@@ -1,0 +1,24 @@
+.slider {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.slider .carousel-inner .photo {
+    height: 500px;
+}
+
+.slider .carousel-inner .photo img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.slider .carousel-inner .photo .text p {
+    font-size: 100px;
+}
+
+.slider .control-size {
+    height: 100px;
+    width: 100px;
+}

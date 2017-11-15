@@ -1,0 +1,24 @@
+#footer-main {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#footer-main .container .row .col-md-3 {
+    display: flex;
+    justify-content: center;
+}
+
+#footer-main .container .row .col-md-3 .fa {
+    font-size: 32px;
+}
+
+#footer-main .container .row .col-md-3 span {
+    font-size: 25px;
+}
+
+#footer-main .container .row .col-md-3 a {
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+}

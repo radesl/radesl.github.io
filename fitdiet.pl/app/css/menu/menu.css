@@ -1,0 +1,24 @@
+.main-menu {
+    font-family: 'Montserrat', sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 1px;
+    background-color: #e7e7e7;
+}
+
+.main-menu a {
+    cursor: default;
+    color: black;
+    padding: 1%;
+}
+
+.main-menu .navbar-collapse .navbar-nav .nav-item {
+    text-align: center;
+    width: 20%;
+}
+
+.main-menu .navbar-collapse .navbar-nav .nav-item .link-style {
+    color: black;
+    padding: 10%;
+    cursor: pointer;
+}
