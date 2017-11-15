@@ -1,0 +1,19 @@
+#co-oferujemy {
+    text-align: center;
+}
+
+#co-oferujemy .container .row .offering {
+    text-align: center;
+}
+
+#co-oferujemy .container .row .offering i {
+    font-size: 50px;
+}
+
+#co-oferujemy .container .row .offering h3 {
+    font-size: 30px;
+}
+
+#co-oferujemy .container .row .offering p {
+    font-size: 24px;
+}

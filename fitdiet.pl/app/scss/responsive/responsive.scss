@@ -50,6 +50,16 @@
     .slider{
         width: 100%;
     }
+    #gallery{
+        .gallery-row{
+            .images{
+                .image{
+                    margin-top: 5px;
+        margin-bottom: 5px;
+                }
+            }
+        }
+    }
     #footer-main {
         width: 100%;
         .container {

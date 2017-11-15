@@ -2,8 +2,11 @@
 @import 'slider/slider';
 @import 'header/header';
 @import 'footer/footer';
+@import 'gallery/gallery';
+@import 'co-oferujemy/co-oferujemy';
 @import 'responsive/responsive';
 
 body{
     background-image: url('../img/tlo.png');
+    font-family: 'Montserrat', sans-serif;
 }
