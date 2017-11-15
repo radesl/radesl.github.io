@@ -6,7 +6,9 @@
 
 #footer-main .container .row .col-md-3 {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 #footer-main .container .row .col-md-3 .fa {
@@ -15,10 +17,12 @@
 
 #footer-main .container .row .col-md-3 span {
     font-size: 25px;
+    line-height: 25px;
 }
 
 #footer-main .container .row .col-md-3 a {
     color: black;
     text-decoration: none;
     font-size: 25px;
+    line-height: 25px;
 }
