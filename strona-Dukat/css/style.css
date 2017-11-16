@@ -1,0 +1,49 @@
+/* stylowanie elementu body */
+body{
+    background: linear-gradient(to right, rgba(102, 179, 255, 0.6) 0%, rgba(102, 179, 255, 0.5) 10%, rgba(102, 179, 255, 0.4) 50%, rgba(102, 179, 255, 0.5) 90%,  rgba(102, 179, 255, 0.6) 100%);
+}
+/* stylowanie menu głównego */
+#main-nav{
+    
+    text-align: center;
+}
+#main-nav div ul li{
+    width: 20%;
+}
+#main-nav div ul li a{
+    font-size: 24px;
+    color: black;
+}
+/* slytowanie sekcji header */
+#header-main{
+    margin: 0 auto;
+    margin-top: 100px;
+}
+#header-main .text-header{
+    display: flex;
+    justify-content: center;
+}
+/* stylowanie sekcji slider */
+#slider-main{
+    margin: 0 auto;
+    margin-top: 70px;
+    width: 80%;
+}
+#slider-main .photo{
+    height: 500px;
+}
+#slider-main .photo img{
+    height: 100%;
+    object-fit: cover;
+}
+#slider-main .control-size{
+    height: 100px;
+    width: 100px;
+}
+/* stylowanie sekcji footer */
+#footer-main{
+    margin-top: 5px;
+}
+#footer-main p{
+    font-size: 24px;
+}
